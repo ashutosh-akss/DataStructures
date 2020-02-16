@@ -29,7 +29,6 @@ class SinglyLinkedList {
       let prevNode = null;
       let currNode = this.head;
       while (currPos <= pos && currNode !== null) {
-        prevNode = currNode;
         currNode = currNode.next;
         currPos++;
       }
